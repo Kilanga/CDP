@@ -1,0 +1,22 @@
+/.bundle
+/log/*.log
+/tmp
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/.env
+/.secret
+vendor/bundle
+node_modules
+yarn-error.log
+.byebug_history
+.DS_Store
+coverage/
+/public/packs
+/public/packs-test
+/tmp/cache
+config/master.key
+
+# Rails specific
+.env.local
+.env.development.local
+.env.test.local
