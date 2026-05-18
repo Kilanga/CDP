@@ -1,0 +1,46 @@
+<div class="container">
+
+<header>
+  <h1>Le Bon Chef de Projet</h1>
+  <p>Checklist complète — De l'initiation à la clôture · Actions, vérifications &amp; documentation</p>
+  <div class="progress-wrap">
+    <div class="progress-label">
+      <span>Progression globale</span>
+      <span id="stat">0 / 0 (0%)</span>
+    </div>
+    <div class="progress-bar-bg"><div class="progress-bar" id="bar"></div></div>
+  </div>
+</header>
+
+<div class="legend">
+  <span class="t-action">Action</span>
+  <span class="t-verif">Vérif.</span>
+  <span class="t-doc">Doc.</span>
+  <span class="t-comm">Comm.</span>
+  <span class="t-risque">Risque</span>
+</div>
+
+<div class="controls" id="phase-btns">
+  <button class="fbtn active" onclick="fPhase(null,this)">Toutes les phases</button>
+  <button class="fbtn" onclick="fPhase(0,this)">Phase 0</button>
+  <button class="fbtn" onclick="fPhase(1,this)">Phase 1</button>
+  <button class="fbtn" onclick="fPhase(2,this)">Phase 2</button>
+  <button class="fbtn" onclick="fPhase(3,this)">Phase 3</button>
+  <button class="fbtn" onclick="fPhase(4,this)">Phase 4</button>
+</div>
+
+<div class="tag-row">
+  <span>Filtrer par type :</span>
+  <button class="tbtn active" style="background:#eee;color:#444" onclick="fTag(null,this)">Tous</button>
+  <button class="tbtn t-action" onclick="fTag('action',this)">Action</button>
+  <button class="tbtn t-verif" onclick="fTag('verif',this)">Vérif.</button>
+  <button class="tbtn t-doc" onclick="fTag('doc',this)">Doc.</button>
+  <button class="tbtn t-comm" onclick="fTag('comm',this)">Comm.</button>
+  <button class="tbtn t-risque" onclick="fTag('risque',this)">Risque</button>
+</div>
+
+<div id="cl"></div>
+
+<button class="reset-btn" onclick="resetAll()">↺ Réinitialiser toute la checklist</button>
+
+</div>
