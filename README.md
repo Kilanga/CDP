@@ -28,6 +28,7 @@ rails server
 
 Note
 - Ce dépôt contient une application Rails minimale. Voir le répertoire `rails/` pour le code.
+- Pour Heroku, le point d'entrée est maintenant à la racine du dépôt via `Gemfile`, `Procfile` et `config.ru`.
 
 Licence
 - Ajoutez ici la licence si vous le souhaitez.
