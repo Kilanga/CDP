@@ -116,7 +116,10 @@ GEM
     nio4r (2.7.5)
     nokogiri (1.19.3-x64-mingw-ucrt)
       racc (~> 1.4)
+    nokogiri (1.19.3-x86_64-linux-gnu)
+      racc (~> 1.4)
     pg (1.6.3-x64-mingw-ucrt)
+    pg (1.6.3-x86_64-linux)
     prism (1.9.0)
     puma (5.6.9)
       nio4r (~> 2.0)
@@ -163,6 +166,7 @@ GEM
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
     sqlite3 (1.7.3-x64-mingw-ucrt)
+    sqlite3 (1.7.3-x86_64-linux)
     thor (1.5.0)
     timeout (0.6.1)
     tzinfo (2.0.6)
@@ -177,6 +181,7 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   pg (>= 1.1, < 2.0)
